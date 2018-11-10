@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Current Location</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="get_current_location_url">https://maps.googleapis.com/maps/api/geocode/json?sensor=true&amp;latlng=%1$f,%2$f&amp;key=%3$s</string>
+    <string name="get_nearby_places_url">https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=%1$f,%2$f&amp;radius=500&amp;language=en&amp;key=%3$s</string>
+    <string name="get_autocomplete_url">https://maps.googleapis.com/maps/api/place/autocomplete/json?location==%1$f,%2$f&amp;radius=500&amp;input=%3$s&amp;key=%4$s</string>
+    <string name="title_location_permission">Enable Location</string>
+    <string name="text_location_permission">This app requires access to location</string>
+    <string name="ok">OK</string>
+    <string name="get_place_url">https://maps.googleapis.com/maps/api/place/details/json?placeid=%1$s&amp;fields=geometry&amp;key=%2$s</string>
+</resources>
